@@ -16,6 +16,7 @@
             What's up, <input type="text" id="name"  placeholder="Name here">
         </h2>
        </section>
+
        <section class="create-todo">
             <h3>CREATE A TODO</h3>
             <form  id="new-todo-form">
@@ -37,6 +38,40 @@
                 <input type="submit" value="Add todo">
             </form>
        </section>
+
+       <section class="todo-list">
+            <h3>TODO LIST</h3>
+            <div class="list" id="todo-list">
+                <div class="todo-item">
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble business"></span>
+                    </label>
+                    <div class="todo-content">
+                        <input type="text" value="Complete task 1" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="todo-item">
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble personal"></span>
+                    </label>
+                    <div class="todo-content">
+                        <input type="text" value="Visit the grandmother" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+       </section>
+
     </main>
     <script src="script.js"></script>
 </body>
