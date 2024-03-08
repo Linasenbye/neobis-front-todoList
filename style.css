@@ -15,8 +15,14 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 body {
     background:  #EEE;
     color: #313154;
+    display: flex;
+    justify-content: center;
 }
 
+.container {
+    height: 400px;
+    width: 600px;
+}
 section {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -171,6 +177,7 @@ input:checked ~ .bubble::after {
 .todo-item .todo-content input {
     color: #313154;
     font-size: 1.125rem;
+    width: 350px;
 }
 
 .todo-item .actions {
